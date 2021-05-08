@@ -1,0 +1,17 @@
+<h1>usuario: <small>{{_websocketService.usuario.nombre}}</small></h1>
+<button class="btn btn-danger" (click)="salir()">
+    Salir
+</button>
+
+<hr>
+
+<div class="row" style="margin-left: 10px; margin-right: 10px;">
+    <div class="col-6">
+        <app-lista-usuarios></app-lista-usuarios>
+    </div>
+
+    <div class="col-6">
+        <app-chat></app-chat>
+    </div>
+</div>
+
